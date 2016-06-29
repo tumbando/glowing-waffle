@@ -1,0 +1,33 @@
+.tab {
+  list-style: none;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: 1px solid grey;
+}
+#tabContent {
+  border: 1px solid grey;
+}
+.tab li {
+  float: left;
+  border: 1px solid grey;
+}
+
+.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+
+.tab li a:hover {
+  background-color: black;
+  color: white;
+}
+
+.active {
+  display: none;
+}
